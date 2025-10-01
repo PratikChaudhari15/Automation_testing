@@ -14,8 +14,9 @@ public class Direct_Locator29_09 {
 		driver.get("https://demowebshop.tricentis.com/");
 		
 		WebElement searchfield = driver.findElement(By.tagName("input"));
-		searchfield.sendKeys("PS5");
+		searchfield.sendKeys("computer");
 		Thread.sleep(3000);
+		
 		driver.findElement(By.className("button-1")).click();
 		Thread.sleep(3000);
 		driver.close();
