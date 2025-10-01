@@ -25,6 +25,9 @@ public class ReadText {
 //		WebElement poll = driver.findElement(By.partialLinkText("Community"));
 //		System.out.println(poll.getText());
 		
+		
+		
+		
 		Thread.sleep(3000);
 		driver.close();
 	}
