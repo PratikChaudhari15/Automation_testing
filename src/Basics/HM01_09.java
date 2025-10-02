@@ -29,7 +29,7 @@ public class HM01_09 {
 		Thread.sleep(2000);
 		driver.findElement(By.className("sender-email")).sendKeys("sid.shirsath2363@gmail.com");
 		Thread.sleep(2000);
-		driver.findElement(By.className("message")).sendKeys("I LOVE YOU BRO ");
+		driver.findElement(By.className("message")).sendKeys(" PLease read this message");
 		Thread.sleep(2000);
 		driver.findElement(By.id("addtocart_2_EnteredQuantity")).clear();
 		Thread.sleep(2000);
