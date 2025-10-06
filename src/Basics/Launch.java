@@ -10,5 +10,6 @@ public class Launch {
 		driver.manage().window().maximize();
 		driver.get("https://flipkart.com");
 		driver.close();
+		
 	}
 }
