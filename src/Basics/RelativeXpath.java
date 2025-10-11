@@ -15,14 +15,14 @@ public class RelativeXpath {
 		
 		//*********** XPath By using Attribute***********
 		
-		//driver.findElement(By.xpath("//label[@for='pollanswers-1']")).click();
-		//Thread.sleep(3000);
+//		driver.findElement(By.xpath("//label[@for='pollanswers-1']")).click();
+//		Thread.sleep(3000);
 		
 		//*********** XPath By using Text***********
 
-//		WebElement poll = driver.findElement(By.xpath("//strong[text()='Community poll']"));
-//		System.out.println(poll.getText());
-//		Thread.sleep(3000);
+		WebElement poll = driver.findElement(By.xpath("//strong[text()='Community poll']"));
+		System.out.println(poll.getText());
+		Thread.sleep(3000);
 		
 		//***********By using Contains***********
 		
@@ -33,9 +33,9 @@ public class RelativeXpath {
 		//driver.findElement(By.xpath("(//input[@name='pollanswers-1'])[4]")).click();
 		
 		//***********XPath By using dependent Xpath***********
-		WebElement Laptop14 = driver.findElement(By.xpath("//a[text()=14.1-inch Laptop']/../../div[3]/div/span"));
-		System.out.println(Laptop14.getText());
-		
+//		WebElement Laptop14 = driver.findElement(By.xpath("//a[text()=14.1-inch Laptop']/../../div[3]/div/span"));
+//		System.out.println(Laptop14.getText());
+//		
 		Thread.sleep(3000);
 		driver.close();
 	}

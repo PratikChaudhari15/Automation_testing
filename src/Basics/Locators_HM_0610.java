@@ -5,7 +5,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Locators_HM_0610 {
-
 	
 //	•	Open the browser
 //	•	Maximazie broser
@@ -27,14 +26,14 @@ public class Locators_HM_0610 {
 		driver.findElement(By.xpath("//a[contains(text(),'Digital')]")).click();
 		Thread.sleep(3000);	
 		
-		WebElement price = driver.findElement(By.xpath("//div[class='product-grid']/div[1]/div/div[2]/div[3]/div[1]/span"));
+		WebElement price = driver.findElement(By.xpath("//a[text()='3rd Album']/../../div[3]/div/span"));
 		System.out.println(price.getText());
 		
-		WebElement price2 = driver.findElement(By.xpath("//div[class='product-grid']/div[2]/div/div[2]/div[3]/div[1]/span"));
-		System.out.println(price.getText());
+		WebElement price2 = driver.findElement(By.xpath("//a[text()='Music 2']/../../div[3]/div/span"));
+		System.out.println(price2.getText());
 		
-		WebElement price3 = driver.findElement(By.xpath("//div[class='product-grid']/div[3]/div/div[2]/div[3]/div[1]/span"));
-		System.out.println(price.getText());
+		WebElement price3 = driver.findElement(By.xpath("//a[text()='Music 2']/../../div[3]/div/span"));
+		System.out.println(price3.getText());
 		
 		Thread.sleep(3000);	
 		driver.close();

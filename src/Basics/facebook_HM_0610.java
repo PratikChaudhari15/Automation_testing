@@ -23,20 +23,28 @@ public class facebook_HM_0610 {
 		
 		driver.findElement(By.xpath("//input[contains(@id,'u_0_8_')]")).sendKeys("Pratik");
 		Thread.sleep(2000);
+		
 		driver.findElement(By.xpath("//input[contains(@id,'u_0_a_')]")).sendKeys("Chaudhari");
 		Thread.sleep(2000);
+		
 		driver.findElement(By.xpath("//select[contains(@id,'day')]")).sendKeys("15");
 		Thread.sleep(2000);
+		
 		driver.findElement(By.xpath("//select[contains(@id,'month')]")).sendKeys("Apr");
 		Thread.sleep(2000);
+		
 		driver.findElement(By.xpath("//select[contains(@id,'year')]")).sendKeys("2003");
 		Thread.sleep(2000);
+		
 		driver.findElement(By.cssSelector("input[name='sex'][value='2']")).click();
 		Thread.sleep(2000);
+		
 		driver.findElement(By.xpath("//input[contains(@id,'u_0_h_')]")).sendKeys("9235348326"); 
 		Thread.sleep(2000);
+		
 		driver.findElement(By.id("password_step_input")).sendKeys("Pratik@1536");
 		Thread.sleep(2000);
+		
 		driver.findElement(By.xpath("//button[contains(@id,'u_0_n_')]")).click(); 
 		
 		Thread.sleep(7000);
