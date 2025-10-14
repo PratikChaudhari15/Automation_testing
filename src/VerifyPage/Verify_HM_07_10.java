@@ -46,9 +46,6 @@ public class Verify_HM_07_10 {
 		
 		driver.findElement(By.xpath("/html/body/div[4]/div[1]/div[4]/div[2]/div[2]/div[2]/div[1]/div[1]/div/div/a")).click();
 		
-		
-		
-		
 		Thread.sleep(3000);
 		driver.close();
 		

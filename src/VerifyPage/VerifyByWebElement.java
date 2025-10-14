@@ -23,5 +23,4 @@ public class VerifyByWebElement {
 		}
 		driver.close();
 	}
-
 }
