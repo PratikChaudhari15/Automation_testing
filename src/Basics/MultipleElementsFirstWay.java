@@ -27,11 +27,11 @@ public class MultipleElementsFirstWay {
 		//************This the Second Way******************
 		
 		List<WebElement> links = driver.findElements(By.xpath("//div[@class='header-links']/ul/li/a"));
-		for(WebElement web : links)
+		for(int i = 0;i<links.size();i++)
 		{
-			web.click();
+			links.get(i).click();
+			links = driver.findElements(By.xpath("//div[@class='header-links']/ul/li/a"));
 			Thread.sleep(2000);
-			driver.navigate().back();
 		}
 		Thread.sleep(2000);
 		driver.close();
