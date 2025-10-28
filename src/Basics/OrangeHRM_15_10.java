@@ -31,9 +31,20 @@ public class OrangeHRM_15_10 {
 		
 		driver.findElement(By.className("oxd-main-menu-item")).click();
 		
-		if(driver.findElement(By.xpath("//[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div[1]/div/div[2]/div")).isDisplayed()) {
+		if(driver.findElement(By.xpath("//span[text()='Admin']")).isDisplayed()) {
+
 			System.out.println("Admin is present testscript is pass");
-		}
+
+			}else
+
+			{
+
+			System.out.println("Admin is not present testscript is failed");
+
+			}
+
+
+			Thread.sleep(3000);
 		
 		driver.findElement(By.className("oxd-userdropdown-tab")).click();
 		Thread.sleep(1000);
