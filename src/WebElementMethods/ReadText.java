@@ -8,7 +8,8 @@ public class ReadText {
 	public static void main(String[]args) throws InterruptedException
 	{
 		ChromeDriver driver = new ChromeDriver();
-		driver.manage().window().maximize();
+		driver.manage(
+				).window().maximize();
 		driver.get("https://demowebshop.tricentis.com/");
 		Thread.sleep(1000);
 		
@@ -24,9 +25,6 @@ public class ReadText {
 		
 //		WebElement poll = driver.findElement(By.partialLinkText("Community"));
 //		System.out.println(poll.getText());
-		
-		
-		
 		
 		Thread.sleep(3000);
 		driver.close();
